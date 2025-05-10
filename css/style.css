@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Irish Grover";
+  src: url("/static/fonts/IrishGrover-Regular.ttf") format("truetype");
+}
+
+.rising {
+  font-family: "Irish Grover", sans-serif;
+  color: #ed6339;
+  font-size: 10em;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  color: #fff;
+}
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  background: #d9d9d938;
+  align-items: center;
+  height: 58px;
+  box-sizing: border-box;
+  padding-right: 30px;
+}
+
+.nav-logo {
+  width: 30%;
+}
+.nav-logo > img {
+  width: 92px;
+  height: 37px;
+}
+.nav-links {
+  width: 70%;
+  display: flex;
+  gap: 34px;
+  justify-content: end;
+}
+.nav-links > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-style: bold;
+}
+
+section {
+  height: 700px;
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
+  width: 100%;
+}
+
+.section-a {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/static/images/tnc\ pro\ team\ bg\ .png");
+}
+
+.section-a > .section-left {
+  width: 30%;
+  text-align: center; /* optional: for fallback alignment */
+}
+
+.section-a > .section-left > img {
+  display: block;
+  margin: 0 auto; /* this centers block elements horizontally */
+}
+
+.section-a > .section-right {
+  width: 70%;
+}
+.section-left > img {
+  display: block;
+}
+.section-b {
+  background-image: url("/static/images/TNC\ Pro\ Team\ BG2.jpeg");
+}
+
+.section-c {
+  background-image: url("/static/images/TNC\ Pro\ Team\ Header\ Logo.png");
+}
+
+.section-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container1 {
+  padding: 8px 165px 0 144px;
+}
