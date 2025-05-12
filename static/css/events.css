@@ -1,0 +1,64 @@
+section {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.a {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/static/images/players/TNC pro team bg events.jpg");
+}
+
+.a .wrapper {
+  padding: 100px 13vw 50px 13vw;
+}
+
+.b {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/static/images/players/M6\ Events\ background.png");
+}
+
+.b .wrapper {
+  padding: 50px 13vw;
+}
+
+.wrapper {
+  display: flex;
+  column-gap: 150px;
+  justify-content: center;
+}
+.wrapper > div {
+  background-image: url("/static/images/brands/wavy\ line\ background.jpg");
+  padding: 1.5vw;
+  border-radius: 30px;
+  border: #000 8px solid;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  width: 23vw;
+  text-align: center;
+}
+.wrapper img {
+  width: 200px;
+}
+
+.wrapper p {
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.title {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.title > div {
+  text-shadow: #000 5px 2px 5px;
+}
+
+.title > div:first-child {
+  font-size: 35px;
+}
+
+.title > div:last-child {
+  font-size: 25px;
+  margin-top: -12px;
+}
