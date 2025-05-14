@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/static/images/bg/tnc_events2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 100px;
+  margin: 50px auto;
+  width: 900px;
+}
+
+.box {
+  text-align: center;
+  width: 400px;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box > img:first-child {
+  width: 200px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.title {
+  text-align: center;
+  padding-top: 100px;
+}
+.title > div:first-child {
+  font-size: 40px;
+  font-weight: 700;
+}
+.title > div:last-child {
+  font-size: 25px;
+  font-weight: 500;
+}
+.title > div {
+  text-shadow: #000 5px 2px 5px;
+}

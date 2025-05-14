@@ -2,42 +2,37 @@ section {
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
-
 .a {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/static/images/players/TNC pro team bg events.jpg");
-}
-
-.a .wrapper {
-  padding: 100px 13vw 50px 13vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/static/images/bg/tnc_events1.jpg");
 }
 
 .b {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/static/images/players/M6\ Events\ background.png");
-}
-
-.b .wrapper {
-  padding: 50px 13vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/static/images/bg/tnc_events2.jpg");
 }
 
 .wrapper {
   display: flex;
   column-gap: 150px;
-  justify-content: center;
+  width: 900px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
+
 .wrapper > div {
-  background-image: url("/static/images/brands/wavy\ line\ background.jpg");
-  padding: 1.5vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/static/images/bg/wavy_line.jpg");
   border-radius: 30px;
   border: #000 8px solid;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  width: 23vw;
   text-align: center;
+  width: 325px;
+  padding: 25px;
+  height: 300px;
 }
 .wrapper img {
   width: 200px;
+  height: 120px;
+  object-fit: contain;
 }
 
 .wrapper p {
@@ -55,10 +50,11 @@ section {
 }
 
 .title > div:first-child {
-  font-size: 35px;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .title > div:last-child {
   font-size: 25px;
-  margin-top: -12px;
+  font-weight: 500;
 }

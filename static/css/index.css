@@ -1,0 +1,172 @@
+section {
+  width: 100%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.a {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/static/images/bg/tnc1.webp");
+}
+
+.a .container {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 70px 0;
+  width: 900px;
+  gap: 100px;
+  margin: 0 auto;
+}
+
+.a .container .left {
+  width: 320px;
+  display: grid;
+  place-items: center;
+}
+
+.a .container .left img {
+  width: 100%;
+}
+
+.a .container .left img:last-child {
+  height: 115px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: -155px;
+  width: 200px;
+}
+
+.a .container .right {
+  width: 480px;
+}
+
+.a .container .right .title {
+  font-family: "Irish Grover";
+  font-size: 152px;
+  color: #de3702;
+  text-shadow: #000 5px 2px 5px;
+}
+
+.a .container .right .subtitle {
+  margin: -46px 0 30px 0;
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.a .container .right .description {
+  text-align: justify;
+  font-size: 23px;
+  margin-bottom: 70px;
+}
+
+.a .container .right .games img {
+  width: 32%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.b {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/static/images/bg/tnc2.jpeg");
+}
+
+.b .container {
+  width: 900px;
+  display: flex;
+  gap: 100px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.b .container .left {
+  width: 250px;
+}
+
+.b .container .left img {
+  width: 100%;
+}
+.b .container .right {
+  width: 550px;
+}
+
+.b .container .right .heading {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.b .container .right .description {
+  line-height: 1.5;
+  font-size: 16px;
+  margin-left: 44px;
+}
+
+.b .container .right .teams {
+  display: flex;
+  margin-top: 50px;
+}
+
+.b .container .right .teams > div {
+  width: 25%;
+  text-align: center;
+}
+.b .container .right .teams > div > div {
+  font-weight: 700;
+  margin-top: 5px;
+  font-size: 13px;
+}
+.b .container .right .teams img {
+  height: 60px;
+  object-fit: cover;
+}
+
+.c {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/static/images/bg/tnc.png");
+  background-size: 60% !important;
+  background-color: #000;
+  background-position: center;
+}
+
+.c .container {
+  width: 700px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.c .heading {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.c .members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 130px;
+  width: 100%;
+}
+
+.c .member {
+  flex: 1 1 calc(33.33% - 130px);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 15px;
+}
+
+.c .member:nth-child(4),
+.c .member:nth-child(5) {
+  flex: 1 1 calc(50% - 170px);
+  margin-top: -100px;
+}
+.c .member:nth-child(4) {
+  margin-left: 100px;
+}
+.c .member:nth-child(5) {
+  margin-right: 100px;
+}
+.c .member img {
+  width: 140px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}

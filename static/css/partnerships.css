@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/static/images/bg/wavy_line.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 100px 0 70px 0;
+}
+
+.logos {
+  background: #dddddd54;
+  padding: 30px;
+  border-radius: 50px;
+  border: 10px solid #393939;
+}
+
+.logos > div {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+}
+
+.logos > div:first-child {
+  margin-bottom: 30px;
+}
+
+.logos > div img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.subheading {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.sponsors-heading,
+.old-heading {
+  font-size: 25px;
+  font-weight: 700;
+}
+.sponsors-heading {
+  margin: 70px 0 30px 0;
+}
+
+.old {
+  text-align: center;
+}
+
+.old-heading {
+  margin: 100px 0 30px 0;
+}
+.old img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
